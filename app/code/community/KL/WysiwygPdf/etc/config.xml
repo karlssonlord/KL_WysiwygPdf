@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
+    <global>
+        <helpers>
+            <wysiwygpdf>
+                <class>KL_WysiwygPdf_Helper</class>
+            </wysiwygpdf>
+        </helpers>
+    </global>
     <modules>
         <KL_WysiwygPdf>
             <version>1.0.0</version>
